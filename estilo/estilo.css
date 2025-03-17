@@ -1,0 +1,493 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+        @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+    :root {
+    --verde-Escuro: #666f54;
+    --verde-Claro: #abbc6e;
+    --Cinzento-Claro: #cecece;
+    --font-Poppins:"Poppins", sans-serif;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: var(--font-Poppins);
+    }
+
+    header {
+    background-color: rgb(197, 186, 186);
+    background-image: url(../imagens/fundo_header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 30px;
+    }
+    .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .imersao {
+    border: 1px solid green;
+    color: white;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    background-image: linear-gradient(to right, #666f54, #abbc6e);
+    border-radius: 12px 0 12px 0;
+    }
+    .biju {
+    color: var(--verde-Escuro);
+    font-family: "Great Vibes";
+    font-size: 2.5em;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    }
+
+
+    .lado1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 400;
+        padding-top: 20px;
+        color: var(--verde-Escuro);
+
+        & span{
+        font-weight: 600;
+        
+        }
+    }
+    
+    .texto{
+        width: 280px;
+        line-height: 22px;
+    }
+    .box-video{
+        font-size: 14px;
+        width: 450px;
+    }
+    video{
+        width: 100%;
+        border-radius: 20px 0 20px 0;
+        margin-bottom: 10px;
+        border: 5px solid #666f54;
+    }
+    
+    .botao{
+        width: 260px;
+        height: 33px;
+        display: flex; align-items: center; justify-content: center;
+        background-image: linear-gradient(to right, #666f54 70%, #abbc6e);
+        border: none;
+        border-radius: 8px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        font-size: 15px;
+        margin-bottom: 10px;
+        transition: .2s ease;
+    }
+    .botao:hover{
+        font-size: 15.5px;
+        transition: .2s ease;
+    }
+
+    .box-img{
+            margin-top: 30px;
+        & img{
+            max-width: 280px;
+            border: 5px solid #666f54;
+            border-radius: 0 0 20px 20px;
+            border-top: none;
+            background-image: linear-gradient(to top, #666f54, #cecece 80%);
+
+        }
+    }
+
+    .section1{
+        background-image: url(../imagens/fundo3.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 40px;
+    }
+    .introducao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 40px;
+        width: 100%;
+        color: white;
+
+        & span{
+            font-weight: 600;
+        }
+        .texto2{
+            font-size: 14px;
+        }
+    }
+
+    .linhas{
+        margin: auto;
+        height: 170px;
+    }
+    .ladoA{
+        display: flex;
+        justify-content: end;
+        padding: 0;
+    }
+    .ladoB{
+        display: flex;
+        align-items: end;
+        padding: 0;
+    }
+    .icon-A{
+        color: white;
+    }
+    .icon-B{
+        color: var(--verde-Escuro);
+    }
+    .linhas .colunaA{
+        background-color: #666f54;
+        color: white;
+        border-radius: 0 12px 12px 12px;
+        width:350px;
+        height: 45px;
+        padding: 5px;
+        display: flex;
+        
+
+    }
+    .linhas .colunaB{
+        background-color: var(--Cinzento-Claro);
+        color: #666f54;
+        border-radius: 0 12px 12px 12px;
+        width:350px;
+        height: 110px;
+        padding: 5px;
+        display: flex;
+    }
+    .colunaA p, .colunaB p{
+        font-size: 13.5px;
+        margin-left: 6px;
+    }
+
+    .conselho{
+        width: 100%;
+        height: 130px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .conselho div{
+        border: 2px solid #666f54;
+        border-radius: 12px ;
+        background-image: linear-gradient(to right,#666f54 80%, #abbc6e );
+        color: white;
+        text-align: center;
+        width: 430px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+
+        & h6{
+            font-weight: 600;
+        }
+        & p{
+            font-size: 12px;
+        }
+    }  
+
+    .section2{
+        background-image: url(../imagens/fundo4.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 40px;
+    }
+    .section2 .col{
+        margin-top: 30px;
+    }
+    .section2 .parte1{
+        display: flex;
+        align-items: center;
+    }
+    .section2 .quadro{
+        width: 200px;
+        height: 300px;
+        border-radius: 0 0 20px 20px;
+        background-image: linear-gradient(to top, #666f54, #cecece 80%);
+    }
+
+    .quadro img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .section2 .imagem{
+        width: 300px;
+    }
+    .imagem img{
+        max-width: 300px;
+        object-fit: cover;
+        border-radius: 0 0 20px 20px;
+        background-image: linear-gradient(to top, #666f54, #cecece 80%);
+    }
+
+    .section2 .box-texto{
+        width: 100%;
+        display: flex;
+        
+        & .texto{
+            width: 500px;
+        }
+        & h5{
+            width: 300px;
+            font-weight: 600;
+        }
+        & p{
+            font-size: 13px;
+        }
+    }
+    .section2 .lista{
+        & div{
+            background-color: #666f54;
+            color: white;
+            width: 400px;
+            border-radius: 0 50px 50px 50px;
+            padding: 3px;
+            padding-left: 5px;
+            margin-bottom: 5px;
+            font-size: 13.5px;
+        }
+    }
+
+    .section3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        background-image: url(../imagens/fundo_2.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 40px;
+    }
+    .section3 .cronograma{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        
+        & h5{
+            color: var(--verde-Escuro);
+            font-weight: 600;
+        }
+    }
+    .box{
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+        gap: 20px;
+        
+    }
+    .box1, .box2{
+        margin-top: 10px;
+        padding: 10px;
+        background-color: var(--verde-Escuro);
+        border-radius: 8px;
+        & h6{
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            padding: 5px 10px 5px 10px;
+            background-color: white;
+            color: var(--verde-Escuro);
+            font-weight: 600;
+        }
+        & p{
+            text-align: center;
+            font-size: 14px;
+            color: white;
+        }
+        .bloco{
+            background-color: #5d6b41;
+            padding: 5px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+
+            & h6{
+                background-color: var(--verde-Claro);
+                color: white;
+            }
+            & p{
+                text-align: start;
+                font-size: 13px;
+            }
+        }
+
+        & h5{
+            color: white;
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+@media (max-width: 800px) {
+    .box{
+        display: grid;
+        grid-template-columns: 350px;
+        gap: 10;
+        
+    }
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #e6e6e6;
+
+    & .box{
+        border: 2px solid #666f54;
+        background-color: var(--Cinzento-Claro);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 320px;
+        height: 450px;
+        border-radius: 13px;
+        color: var(--verde-Escuro);
+
+        & h1{
+            color: var(--verde-Escuro);
+            font-weight: 600;
+            font-size: 3em;
+        }
+        & h5{
+            font-weight: 600;
+        }
+        & span{
+            color: var(--verde-Escuro);
+            font-weight: 600;
+        }
+        & p{
+            font-size: 13px;
+        }
+    }
+}
+.section4 .imersao{
+    width: 70px;
+    font-size: 15px;
+}
+.section4 .biju{
+    font-size: 1.5em;
+}
+
+.box-botao{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-botao .botaoo{
+    width: 230px;
+    border-radius: 12px;
+    padding: 5px;
+    background-image: linear-gradient(to right,#666f54 80%, #abbc6e );
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.botaoo:hover{
+        font-size: 15.5px;
+        transition: .2s ease;
+    }
+
+.porque-barato{
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: var(--verde-Escuro);
+
+    & h6{
+        font-weight: 600;
+    }
+}
+.garantia{
+    border: 2px solid #5d6b41;
+    background-color: #cecece;
+    border-radius: 20px;
+    width:100%;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.garantia .caixa1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & img{
+        max-width: 180px;
+    }
+}
+.garantia .caixa2{
+    font-size: 14px;
+    text-align: start;
+    color: var(--verde-Escuro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    & h5{
+        font-size: 17px;
+        font-weight: 600;
+    }
+}
+
+aside{
+    padding-top: 50px;
+    background-color: #5d6b41;
+}
+aside .col{
+    display: flex;
+    justify-content: center;
+}
+
+aside .col img{
+    max-width: 300px;
+}
+
+aside .biografia{
+    width: 400px;
+    font-size: 13.5px;
+    color: white;
+    text-align: justify;
+    & h5{
+        font-weight: 600;
+    }
+}
+footer{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: #5d6b41;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
