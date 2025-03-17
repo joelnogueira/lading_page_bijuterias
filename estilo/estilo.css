@@ -71,7 +71,7 @@
     }
     .box-video{
         font-size: 14px;
-        width: 450px;
+        width: 410px;
     }
     video{
         width: 100%;
@@ -193,7 +193,7 @@
         background-image: linear-gradient(to right,#666f54 80%, #abbc6e );
         color: white;
         text-align: center;
-        width: 430px;
+        width: 410px;
         display: flex;
         flex-direction: column;
         align-content: center;
@@ -433,9 +433,10 @@
     background-color: #cecece;
     border-radius: 20px;
     width:100%;
-    height: 250px;
+    height: 350px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+	gap: 8;
 }
 .garantia .caixa1{
     display: flex;
